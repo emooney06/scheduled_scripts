@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ac927574-198c-409f-8b04-3b19187ec7c7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>scheduled_scripts.py</StartupFile>
+    <StartupFile>mail_rules.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="scheduled_scripts.py" />
+    <Compile Include="covid_screen.py" />
+    <Compile Include="mail_rules.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -1,5 +1,5 @@
 ############################################################################################################################
-# Title: COVID-19 Risk Alert (covid_screen)
+# Title: COVID-19 Risk Alert
 # Date:  2020-05-18
 # Author:  Ethan Mooney
 # Description:  This function looks for a file that should be safed by the outlook rule "8940 Save and Move" running on the
