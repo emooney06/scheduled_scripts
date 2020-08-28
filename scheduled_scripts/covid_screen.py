@@ -17,7 +17,7 @@ import collections
 import re
 from datetime import datetime
 from pathlib import Path
-from my_functions import max_pd_display, check_answer, make_string_cost_center, add_columns_for_reporting, double_check
+from my_functions import max_pd_display
 from my_classes import FileDateVars
 from my_variables import master_alias, mmm_dict
 import time 
